@@ -229,7 +229,7 @@ WLED_GLOBAL bool syncToggleReceive     _INIT(false);   // UIs which only have a 
 
 // Sync CONFIG
 WLED_GLOBAL bool buttonEnabled  _INIT(true);
-WLED_GLOBAL byte irEnabled      _INIT(0);     // Infrared receiver
+WLED_GLOBAL byte irEnabled      _INIT(1);     // Infrared receiver
 
 WLED_GLOBAL uint16_t udpPort    _INIT(21324); // WLED notifier default port
 WLED_GLOBAL uint16_t udpPort2   _INIT(65506); // WLED notifier supplemental port

@@ -29,7 +29,9 @@ bool decodeIRCustom(uint32_t code)
   {
     //just examples, feel free to modify or remove
     case IRCUSTOM_ONOFF : toggleOnOff(); break;
-    case IRCUSTOM_MACRO1 : applyPreset(1); break;
+    case IRCUSTOM_MACRO1 : applyPreset(1); colorUpdated(NOTIFIER_CALL_MODE_FX_CHANGED); break;
+    case IRCUSTOM_MACRO2 : applyPreset(2); colorUpdated(NOTIFIER_CALL_MODE_FX_CHANGED); break;
+    case IRCUSTOM_MACRO3 : toggleOnOff(); break;
 
     default: return false;
   }

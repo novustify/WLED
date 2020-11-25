@@ -2,7 +2,9 @@
 
 //Add your custom codes here
 #define IRCUSTOM_ONOFF  0xA55AEA15 //Pioneer RC-975R "+FAV" button (example)
-#define IRCUSTOM_MACRO1 0xFFFFFFFF //placeholder, will never be checked for
+#define IRCUSTOM_MACRO1 0xBFC0AA55 //F1
+#define IRCUSTOM_MACRO2 0xBFC00AF5 //F2
+#define IRCUSTOM_MACRO3 0xBFC09867 //F3
 
 // Default IR codes for 6-key learning remote https://www.aliexpress.com/item/4000307837886.html
 // This cheap remote has the advantage of being more powerful (longer range) than cheap credit-card remotes
